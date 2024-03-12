@@ -99,6 +99,6 @@ class Type_ActivityController extends Controller
             'message' => 'Registro eliminado correctamente',
             'type_activity' => $type_activity
         ];
-        return response()->json($response, Response::HTTP_NO_CONTENT);
+        return response()->json($response, Response::HTTP_OK);
     }
 }

@@ -110,6 +110,6 @@ class TechnicianController extends Controller
             'message' => 'Registro eliminado correctamente',
             'technician' => $technician
         ];
-        return response()->json($response, Response::HTTP_NO_CONTENT);
+        return response()->json($response, Response::HTTP_OK);
     }
 }
